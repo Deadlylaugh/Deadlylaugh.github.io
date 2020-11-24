@@ -1,9 +1,9 @@
 body
 {
   	background-color:#262626;
-  	margin: 0;
-  	border: 0;
-  	padding-top: 70;
+  	margin: 0px;
+  	border: 0px;
+  	padding-top: 75px;
 }
 
 p 
@@ -11,6 +11,7 @@ p
 	color: #FFFFFF;
   	font-family: verdana;
 	font-size: 20px;
+	padding: 0px 20px;
 }
 
 /* Top Navigation Bar */
@@ -21,9 +22,9 @@ p
 	height: 70px;
 	background-color:#0D0D0D;
 	position: fixed;
-	top: 0;
-	margin:0;
-	border:0;
+	top: 0px;
+	margin: 0px;
+	border: 0px;
 }
 
 .title
@@ -41,9 +42,28 @@ p
 	text-align: center;
 }
 
-#linkref
+.elements{
+	margin: 0;
+	float:right;
+  	padding-right:25px;
+}
+
+.linkref
 {
+	margin: 0px 20px;
+  	display: inline-block;
+  	float:left;
+  	width: auto;
+	color: #FFFFFF;
+	padding: 0px 15px;
+}
+
+.topnav > .elements > .linkref > a
+{
+	line-height: 70px;
+	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
-	padding: 15;
+	font-family: verdana;
+  	font-size: 20px;
 }
