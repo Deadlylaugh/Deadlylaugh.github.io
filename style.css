@@ -311,9 +311,7 @@
   .experience
   {
     text-align: center;
-    background-color: #202020;
     padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .experience-card-deck
@@ -392,6 +390,9 @@
   .skills
   {
     text-align: center;
+    background-color: #202020;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 
 
